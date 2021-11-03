@@ -1,0 +1,80 @@
+.wow{
+    margin-top: 5%;
+}
+.contenedor-tutores{
+     margin-top: 5%;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedor-tutores div{
+    margin-bottom: 2em;
+    background: rgb(224, 237, 243);
+    border-radius: 2em;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boton{
+    background: #03C4EB;
+}
+.boton:hover{
+    background: rgba(3, 196, 235,0.5);
+}
+.materias{
+    width: 20px;
+    height: 20px;
+    background: darkgray;
+    color: white;
+}
+.tutores-t img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+h3{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bold;
+}
+p{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-style: italic;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+@media (max-width:1000px){
+    .wow{
+        margin-top: 8%;
+    }
+}
+@media (max-width:700px){
+    .wow{
+        margin-top: 10%;
+    }
+}
+@media (max-width:550px){
+    .wow{
+        margin-top: 14%;
+    }
+}
+@media (max-width:385px){
+    .wow{
+        margin-top: 19%;
+    }
+}
+
